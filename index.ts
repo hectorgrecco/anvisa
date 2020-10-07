@@ -26,6 +26,7 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
                 queues.push(queue)
             })
 
+            console.log("filas", queues)
             return queues
         });
     } catch(error) {
@@ -33,6 +34,11 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
     }
 };
 
-exports = getAnalysisQueue
+(async function() {
+    await getAnalysisQueue(6, 522, 804);
+}());
+
+
+// exports = getAnalysisQueue
 
 
