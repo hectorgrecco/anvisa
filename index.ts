@@ -26,7 +26,6 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
                 queues.push(queue)
             })
 
-            console.log("filas", queues)
             return queues
         });
     } catch(error) {
