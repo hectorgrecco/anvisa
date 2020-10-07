@@ -32,3 +32,5 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
         return error
     }
 };
+
+export { getAnalysisQueue }

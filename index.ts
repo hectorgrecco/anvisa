@@ -1,1 +1,3 @@
-export * from './queries/getAnalysisQueue'
+import { getAnalysisQueue } from './queries/getAnalysisQueue'
+
+export default getAnalysisQueue
