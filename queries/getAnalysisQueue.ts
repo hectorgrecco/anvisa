@@ -1,7 +1,7 @@
 import * as request from 'request';
 
 const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
-    try {
+    return new Promise((resolve, reject) => {
         const options = {
             url: 'https://consultas.anvisa.gov.br/api/fila/',
             headers: { Authorization: 'guest' },
@@ -9,7 +9,7 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
         };
 
         request.get(options, async (err, response, body) => {
-            if (err) throw err;
+            if (err) reject(err);
             const parsedBody = JSON.parse(body);
             const queues: any = []
 
@@ -26,11 +26,9 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
                 queues.push(queue)
             })
 
-            return queues
+            resolve(queues)
         });
-    } catch(error) {
-        return error
-    }
+    })
 };
 
 export { getAnalysisQueue }
