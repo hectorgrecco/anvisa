@@ -33,11 +33,6 @@ const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
     }
 };
 
-(async function() {
-    await getAnalysisQueue(6, 522, 804);
-}());
-
-
-// exports = getAnalysisQueue
+exports = getAnalysisQueue
 
 
