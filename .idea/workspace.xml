@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="290692b0-1db2-4741-bd1e-63e83920fbb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601993203305</updated>
-      <workItem from="1601993204518" duration="10469000" />
+      <workItem from="1601993204518" duration="10897000" />
     </task>
     <servers />
   </component>
@@ -94,6 +94,10 @@
       <screen x="0" y="23" width="1680" height="934" />
     </state>
     <state x="577" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.934@0.23.1680.934" timestamp="1602028165189" />
+    <state x="340" y="130" key="SettingsEditor" timestamp="1602029637308">
+      <screen x="0" y="23" width="1680" height="934" />
+    </state>
+    <state x="340" y="130" key="SettingsEditor/0.23.1680.934@0.23.1680.934" timestamp="1602029637308" />
     <state x="637" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602029102744">
       <screen x="0" y="23" width="1680" height="934" />
     </state>

@@ -9,6 +9,18 @@
   "scripts": {
     "start:dev": "tsnd index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorgrecco/anvisa.git"
+  },
+  "keywords": [
+    "anvisa",
+    "consulta anvisa"
+  ],
+  "homepage": "https://github.com/hectorgrecco/anvisa",
+  "bugs": {
+    "url": "https://github.com/hectorgrecco/anvisa/issues"
+  },
   "dependencies": {
     "request": "^2.88.2"
   },
