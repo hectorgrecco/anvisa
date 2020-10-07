@@ -1,6 +1,6 @@
 {
   "name": "anvisa",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Pacote para consulta de documentos, empresas e medicamentos na ANVISA.",
   "main": "index.js",
   "repository": "git@github.com:hectorgrecco/anvisa.git",
