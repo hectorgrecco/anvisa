@@ -1,6 +1,6 @@
 {
   "name": "anvisa",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Pacote para consulta de documentos, empresas e medicamentos na ANVISA.",
   "main": "dist/index.js",
   "repository": {
