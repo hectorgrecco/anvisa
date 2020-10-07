@@ -1,4 +1,4 @@
-import request from 'request';
+import * as request from 'request';
 
 const getAnalysisQueue = (field: number, queue: number, subqueue: number) => {
     try {

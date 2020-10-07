@@ -2,17 +2,19 @@
   "name": "anvisa",
   "version": "0.2.0",
   "description": "Pacote para consulta de documentos, empresas e medicamentos na ANVISA.",
-  "main": "index.js",
-  "repository": "git@github.com:hectorgrecco/anvisa.git",
-  "author": "Hector Grecco <hectorgreccodev@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "start:dev": "tsnd index.ts"
-  },
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hectorgrecco/anvisa.git"
   },
+  "author": "Hector Grecco <hectorgreccodev@gmail.com>",
+  "prepublish": "tsc index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "tsnd index.ts",
+    "build-ts": "npm-run-all clean build --parallel watch:build watch:server --print-label"
+  },
+  "types": "index.ts",
   "keywords": [
     "anvisa",
     "consulta anvisa"
@@ -25,6 +27,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "@types/request": "^2.48.5"
+    "@types/request": "^2.48.5",
+    "typescript": "^4.0.3"
   }
 }
