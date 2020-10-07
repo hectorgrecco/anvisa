@@ -8,7 +8,7 @@
     "url": "git+https://github.com/hectorgrecco/anvisa.git"
   },
   "author": "Hector Grecco <hectorgreccodev@gmail.com>",
-  "prepublish": "tsc index.ts",
+  "prepublish": "tsc src/index.ts",
   "license": "MIT",
   "scripts": {
     "start:dev": "tsnd src/index.ts",
