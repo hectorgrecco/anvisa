@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "tsnd index.ts",
-    "build-ts": "npm-run-all clean build --parallel watch:build watch:server --print-label"
+    "prepack": "tsc index.ts"
   },
   "types": "index.ts",
   "keywords": [
